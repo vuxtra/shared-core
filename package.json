@@ -1,0 +1,30 @@
+{
+  "name": "@vuxtra/shared-core",
+  "version": "0.1.1",
+  "description": "Shared core library used by vuxtra platform",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 8.7.0",
+    "npm": ">= 5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuxtra/shared-core.git"
+  },
+  "keywords": [
+    "vue.js",
+    "nuxt.js",
+    "realtime",
+    "javascript"
+  ],
+  "author": "Faruk Brbovic @fbrbovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuxtra/shared-core/issues"
+  },
+  "homepage": "https://github.com/vuxtra/shared-core#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

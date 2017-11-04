@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+
+# editor
+.idea
+.idea/*
+
+# logs
+npm-debug.log
+
+# generate
+dist
+
+# build
+build
+
+#misc
+.DS_Store
+
+
+
+
+
+
