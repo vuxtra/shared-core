@@ -1,11 +1,11 @@
 {
   "name": "@vuxtra/shared-core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared core library used by vuxtra platform",
   "main": "lib/index.js",
   "engines": {
-    "node": ">= 8.7.0",
-    "npm": ">= 5.3.0"
+    "node": ">= 8.5.0",
+    "yarn": ">= 1.1.4"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
     "realtime",
     "javascript"
   ],
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
   "author": "Faruk Brbovic @fbrbovic",
   "license": "MIT",
   "bugs": {
@@ -24,7 +27,9 @@
   },
   "homepage": "https://github.com/vuxtra/shared-core#readme",
   "dependencies": {
+    "babel-cli": "^6.26.0"
   },
   "devDependencies": {
+    "babel-preset-latest": "^6.24.1"
   }
 }
